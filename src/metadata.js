@@ -9,6 +9,7 @@ module.exports = {
     { name: 'id', parser: parseInt },
     { name: 'GameTitle', rename: 'title' },
     { name: 'Platform', rename: 'platform' },
+    { name: 'PlatformId', rename: 'platformId' },
     { name: 'ReleaseDate', rename: 'releaseDate', parser: parseDate },
     { name: 'Overview', rename: 'overview' },
     { name: 'ESRB' },
